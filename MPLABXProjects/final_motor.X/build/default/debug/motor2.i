@@ -4671,6 +4671,8 @@ char *tempnam(const char *, const char *);
 
 
 
+int flag = 0;
+void piano();
 void PWM1_Init(long setDuty)
 {
     PR2 = setDuty;
@@ -4724,39 +4726,189 @@ void PWM1_Start()
 
 }
 
+void Do()
+{
+   PWM1_Init(224);
+   PWM1_Duty(250);
+}
+void Re()
+{
+    PWM1_Init(199);
+    PWM1_Duty(250);
+}
+void Mi()
+{
+    PWM1_Init(175);
+    PWM1_Duty(250);
+}
+void Fa()
+{
+    PWM1_Init(165);
+    PWM1_Duty(250);
+}
+void So()
+{
+    PWM1_Init(145);
+    PWM1_Duty(250);
+}
+void Quiet()
+{
+    PWM1_Duty(0);
+}
+void delay()
+{
+    int i;
+    for(i = 0; i < 5000; i++)
+    {
+        if( RD1 == 0 || RD2 == 0 || RD3 == 0 || RC3 == 0 )
+            flag = 1;
+    }
+}
+
+void small_bee()
+{
+    So(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Mi(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Mi(); delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Fa(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Re(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Re(); delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Do(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Re(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Mi(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Fa(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    So(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    So(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    So(); delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    So(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Mi(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Mi(); delay(); if(flag == 1){flag = 0;return;}delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Fa(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Re(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Re(); delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Do(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Mi(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+     So(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    So(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Mi(); delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Re(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Re(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Re(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Re(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Re(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Mi(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Fa(); delay();if(flag == 1){flag = 0;return;}delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Mi(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Mi(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Mi(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Mi(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Mi(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Fa(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    So(); delay();if(flag == 1){flag = 0;return;}delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    So(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Mi(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Mi(); delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Fa(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Re(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Re(); delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Do(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Mi(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+     So(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    So(); delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+    Do(); delay(); if(flag == 1){flag = 0;return;}delay();if(flag == 1){flag = 0;return;}delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
+    Quiet(); delay();if(flag == 1){flag = 0;return;}
+}
+
 void main()
 {
-    PWM1_Init(155);
+
     PWM1_Start();
     int i = 0, j = 0, flag = 0;
 
     TRISDbits.RD0 = 1;
     TRISDbits.RD1 = 1;
+    TRISDbits.RD2 = 1;
+    TRISDbits.RD3 = 1;
+    TRISCbits.RC3 = 1;
 
 
 
     TRISA = 0;
     LATA = 0;
-
-    int k = 0;
     while(1)
     {
+
         if(RD0 == 0)
         {
+           small_bee();
 
-                LATAbits.LATA0 = 1;
-                PWM1_Init(225);
-                i=i+1;
-                PWM1_Duty(200);
-                for(j = 0;j < 200;j++);
-                if(i == 255)
-                    i = 0;
+           LATAbits.LATA0 = 1;
+           Re();
         }
-        if(RD1 == 0)
+        else if(RD1 == 0)
         {
             LATAbits.LATA1 = 1;
-            PWM1_Init(250);
-            PWM1_Duty(200);
+            Do();
+        }
+        else if(RC3 == 0)
+        {
+            Mi();
+        }
+        else if(RD3 == 0)
+        {
+            Fa();
+        }
+        else if(RD2 == 0)
+        {
+            So();
         }
         else
         {
