@@ -1,10 +1,76 @@
 Version 4.0 HI-TECH Software Intermediate Code
-"5413 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h
-[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 5413: extern volatile unsigned char PR2 __attribute__((address(0xFCB)));
-[v _PR2 `Vuc ~T0 @X0 0 e@4043 ]
-"1477
+"1477 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 1477: extern volatile unsigned char TRISA __attribute__((address(0xF92)));
 [v _TRISA `Vuc ~T0 @X0 0 e@3986 ]
+"4690
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 4690: extern volatile unsigned char ADCON1 __attribute__((address(0xFC1)));
+[v _ADCON1 `Vuc ~T0 @X0 0 e@4033 ]
+"7051
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 7051: extern volatile __bit ADFM __attribute__((address(0x7E07)));
+[v _ADFM `Vb ~T0 @X0 0 e@32263 ]
+"4625
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 4625:     struct {
+[s S182 :3 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S182 . ADCS ACQT . ADFM ]
+"4631
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 4631:     struct {
+[s S183 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S183 . ADCS0 ADCS1 ADCS2 ACQT0 ACQT1 ACQT2 ]
+"4624
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 4624: typedef union {
+[u S181 `S182 1 `S183 1 ]
+[n S181 . . . ]
+"4640
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 4640: extern volatile ADCON2bits_t ADCON2bits __attribute__((address(0xFC0)));
+[v _ADCON2bits `VS181 ~T0 @X0 0 e@4032 ]
+"4908
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 4908: extern volatile unsigned char ADRESH __attribute__((address(0xFC4)));
+[v _ADRESH `Vuc ~T0 @X0 0 e@4036 ]
+"4901
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 4901: extern volatile unsigned char ADRESL __attribute__((address(0xFC3)));
+[v _ADRESL `Vuc ~T0 @X0 0 e@4035 ]
+"4781
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 4781:     struct {
+[s S189 :1 `uc 1 :1 `uc 1 ]
+[n S189 . . GO_NOT_DONE ]
+"4785
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 4785:     struct {
+[s S190 :1 `uc 1 :1 `uc 1 :4 `uc 1 ]
+[n S190 . ADON GO_nDONE CHS ]
+"4790
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 4790:     struct {
+[s S191 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S191 . . GO CHS0 CHS1 CHS2 CHS3 ]
+"4798
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 4798:     struct {
+[s S192 :1 `uc 1 :1 `uc 1 ]
+[n S192 . . DONE ]
+"4802
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 4802:     struct {
+[s S193 :1 `uc 1 :1 `uc 1 ]
+[n S193 . . NOT_DONE ]
+"4806
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 4806:     struct {
+[s S194 :1 `uc 1 :1 `uc 1 ]
+[n S194 . . nDONE ]
+"4810
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 4810:     struct {
+[s S195 :1 `uc 1 :1 `uc 1 ]
+[n S195 . . GO_DONE ]
+"4814
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 4814:     struct {
+[s S196 :1 `uc 1 :1 `uc 1 ]
+[n S196 . . GODONE ]
+"4780
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 4780: typedef union {
+[u S188 `S189 1 `S190 1 `S191 1 `S192 1 `S193 1 `S194 1 `S195 1 `S196 1 ]
+[n S188 . . . . . . . . . ]
+"4819
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 4819: extern volatile ADCON0bits_t ADCON0bits __attribute__((address(0xFC2)));
+[v _ADCON0bits `VS188 ~T0 @X0 0 e@4034 ]
+"5413
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 5413: extern volatile unsigned char PR2 __attribute__((address(0xFCB)));
+[v _PR2 `Vuc ~T0 @X0 0 e@4043 ]
 "4507
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 4507:     struct {
 [s S178 :4 `uc 1 :2 `uc 1 :2 `uc 1 ]
@@ -161,6 +227,14 @@ Version 4.0 HI-TECH Software Intermediate Code
 "1004
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 1004: extern volatile LATAbits_t LATAbits __attribute__((address(0xF89)));
 [v _LATAbits `VS44 ~T0 @X0 0 e@3977 ]
+[t T1 __deprecated__ ]
+"8203
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 8203: extern volatile __bit __attribute__((__deprecated__)) RD4 __attribute__((address(0x7C1C)));
+[v _RD4 `Vb ~T1 @X0 0 e@31772 ]
+[t T1 __deprecated__ ]
+"8206
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 8206: extern volatile __bit __attribute__((__deprecated__)) RD5 __attribute__((address(0x7C1D)));
+[v _RD5 `Vb ~T1 @X0 0 e@31773 ]
 "54 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 54: __asm("PORTA equ 0F80h");
 [; <" PORTA equ 0F80h ;# ">
@@ -576,22 +650,22 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4520.h: 7001: __asm("TOSU equ 0FFFh");
 [; <" TOSU equ 0FFFh ;# ">
 "12 motor2.c
-[; ;motor2.c: 12: 
+[; ;motor2.c: 12:     ADRESH=0;
 [p x OSC = INTIO67 ]
 "13
-[; ;motor2.c: 13: void PWM1_Duty(int duty)
+[; ;motor2.c: 13:     ADRESL=0;
 [p x WDT = OFF ]
 "14
-[; ;motor2.c: 14: {
+[; ;motor2.c: 14: }
 [p x PWRT = OFF ]
 "15
 [; ;motor2.c: 15: 
 [p x BOREN = ON ]
 "16
-[; ;motor2.c: 16:         TRISA = duty;
+[; ;motor2.c: 16: int ADC_Read(int channel)
 [p x LVP = OFF ]
 "17
-[; ;motor2.c: 17:         CCP1CONbits.CCP1X = TRISAbits.RA1;
+[; ;motor2.c: 17: {
 [p x CPD = OFF ]
 "23
 [; ;motor2.c: 23: 
@@ -599,1507 +673,2005 @@ Version 4.0 HI-TECH Software Intermediate Code
 [i _flag
 -> 0 `i
 ]
+"24
+[; ;motor2.c: 24:     while(ADCON0bits.GO_nDONE==1);
+[v _n `i ~T0 @X0 1 e ]
 "25
 [; ;motor2.c: 25: 
-[v _PWM1_Init `(v ~T0 @X0 1 ef1`l ]
-"26
-[; ;motor2.c: 26: void PWM1_Duty2()
+[v _ADC_Initialize `(v ~T0 @X0 1 ef ]
 {
-[e :U _PWM1_Init ]
-"25
-[; ;motor2.c: 25: 
-[v _setDuty `l ~T0 @X0 1 r1 ]
-"26
-[; ;motor2.c: 26: void PWM1_Duty2()
+[e :U _ADC_Initialize ]
 [f ]
+"26
+[; ;motor2.c: 26:     digital = (ADRESH*256) | (ADRESL);
+[e = _TRISA -> -> 255 `i `uc ]
 "27
-[; ;motor2.c: 27: {
-[e = _PR2 -> _setDuty `uc ]
+[; ;motor2.c: 27:     return(digital);
+[e = _ADCON1 -> -> 14 `i `uc ]
+"29
+[; ;motor2.c: 29: 
+[e = _ADFM -> -> 1 `i `b ]
 "30
-[; ;motor2.c: 30:         CCP1CONbits.CCP1Y = 0;
+[; ;motor2.c: 30: void piano();
+[e = . . _ADCON2bits 0 0 -> -> 7 `i `uc ]
+"31
+[; ;motor2.c: 31: void PWM1_Init(long setDuty)
+[e = _ADRESH -> -> 0 `i `uc ]
+"32
+[; ;motor2.c: 32: {
+[e = _ADRESL -> -> 0 `i `uc ]
+"33
+[; ;motor2.c: 33:     PR2 = setDuty;
 [e :UE 283 ]
 }
-"32
-[; ;motor2.c: 32: 
-[v _PWM1_Duty `(v ~T0 @X0 1 ef1`i ]
-"33
-[; ;motor2.c: 33: void PWM1_Start()
-{
-[e :U _PWM1_Duty ]
-"32
-[; ;motor2.c: 32: 
-[v _duty `i ~T0 @X0 1 r1 ]
-"33
-[; ;motor2.c: 33: void PWM1_Start()
-[f ]
 "35
 [; ;motor2.c: 35: 
-[e = _TRISA -> _duty `uc ]
+[v _ADC_Read `(i ~T0 @X0 1 ef1`i ]
 "36
-[; ;motor2.c: 36:     CCP1CONbits.CCP1M0 = 0;
-[e = . . _CCP1CONbits 1 5 . . _TRISAbits 1 1 ]
+[; ;motor2.c: 36: }
+{
+[e :U _ADC_Read ]
+"35
+[; ;motor2.c: 35: 
+[v _channel `i ~T0 @X0 1 r1 ]
+"36
+[; ;motor2.c: 36: }
+[f ]
 "37
-[; ;motor2.c: 37:     CCP1CONbits.CCP1M1 = 0;
-[e = . . _CCP1CONbits 1 4 . . _TRISAbits 1 0 ]
+[; ;motor2.c: 37: 
+[v _digital `i ~T0 @X0 1 a ]
+"39
+[; ;motor2.c: 39: {
+[e = . . _ADCON0bits 1 2 -> -> 7 `i `uc ]
 "40
 [; ;motor2.c: 40: 
-[e = _CCPR1L -> >> _duty -> 2 `i `uc ]
+[e = . . _ADCON0bits 2 1 -> -> 1 `i `uc ]
+"41
+[; ;motor2.c: 41:         TRISA = duty;
+[e = . . _ADCON0bits 1 0 -> -> 1 `i `uc ]
 "43
-[; ;motor2.c: 43:     OSCCONbits.IRCF0 = 0;
+[; ;motor2.c: 43:         CCP1CONbits.CCP1Y = TRISAbits.RA0;
+[e $U 285  ]
+[e :U 286 ]
+[e :U 285 ]
+[e $ == -> . . _ADCON0bits 1 1 `i -> 1 `i 286  ]
+[e :U 287 ]
+"45
+[; ;motor2.c: 45: 
+[e = _digital | * -> _ADRESH `i -> 256 `i -> _ADRESL `i ]
+"46
+[; ;motor2.c: 46:         CCPR1L = duty >> 2;
+[e ) _digital ]
+[e $UE 284  ]
+"47
+[; ;motor2.c: 47: 
 [e :UE 284 ]
 }
-"45
-[; ;motor2.c: 45:     OSCCONbits.IRCF2 = 1;
+"50
+[; ;motor2.c: 50: 
+[v _PWM1_Init `(v ~T0 @X0 1 ef1`l ]
+"51
+[; ;motor2.c: 51: void PWM1_Duty2()
+{
+[e :U _PWM1_Init ]
+"50
+[; ;motor2.c: 50: 
+[v _setDuty `l ~T0 @X0 1 r1 ]
+"51
+[; ;motor2.c: 51: void PWM1_Duty2()
+[f ]
+"52
+[; ;motor2.c: 52: {
+[e = _PR2 -> _setDuty `uc ]
+"55
+[; ;motor2.c: 55:         CCP1CONbits.CCP1Y = 0;
+[e :UE 288 ]
+}
+"57
+[; ;motor2.c: 57: 
+[v _PWM1_Duty `(v ~T0 @X0 1 ef1`i ]
+"58
+[; ;motor2.c: 58: void PWM1_Start()
+{
+[e :U _PWM1_Duty ]
+"57
+[; ;motor2.c: 57: 
+[v _duty `i ~T0 @X0 1 r1 ]
+"58
+[; ;motor2.c: 58: void PWM1_Start()
+[f ]
+"60
+[; ;motor2.c: 60: 
+[e = _TRISA -> _duty `uc ]
+"61
+[; ;motor2.c: 61:     CCP1CONbits.CCP1M0 = 0;
+[e = . . _CCP1CONbits 1 5 . . _TRISAbits 1 1 ]
+"62
+[; ;motor2.c: 62:     CCP1CONbits.CCP1M1 = 0;
+[e = . . _CCP1CONbits 1 4 . . _TRISAbits 1 0 ]
+"65
+[; ;motor2.c: 65: 
+[e = _CCPR1L -> >> _duty -> 2 `i `uc ]
+"68
+[; ;motor2.c: 68:     OSCCONbits.IRCF0 = 0;
+[e :UE 289 ]
+}
+"70
+[; ;motor2.c: 70:     OSCCONbits.IRCF2 = 1;
 [v _PWM1_Duty2 `(v ~T0 @X0 1 ef ]
-"46
-[; ;motor2.c: 46: 
+"71
+[; ;motor2.c: 71: 
 {
 [e :U _PWM1_Duty2 ]
 [f ]
-"47
-[; ;motor2.c: 47:     TRISCbits.RC2 = 0;
+"72
+[; ;motor2.c: 72:     TRISCbits.RC2 = 0;
 [e = _CCPR1L -> -> 0 `i `uc ]
-"48
-[; ;motor2.c: 48:     TRISDbits.TRISD7 = 0;
+"73
+[; ;motor2.c: 73:     TRISDbits.TRISD7 = 0;
 [e = . . _CCP1CONbits 1 5 -> -> 0 `i `uc ]
-"49
-[; ;motor2.c: 49:     TRISDbits.TRISD6 = 0;
+"74
+[; ;motor2.c: 74:     TRISDbits.TRISD6 = 0;
 [e = . . _CCP1CONbits 1 4 -> -> 0 `i `uc ]
-"50
-[; ;motor2.c: 50:     TRISDbits.TRISD5 = 0;
-[e :UE 285 ]
+"75
+[; ;motor2.c: 75:     TRISDbits.TRISD5 = 0;
+[e :UE 290 ]
 }
-"52
-[; ;motor2.c: 52:         T2CONbits.T2CKPS0 = 0;
+"77
+[; ;motor2.c: 77:         T2CONbits.T2CKPS0 = 0;
 [v _PWM1_Start `(v ~T0 @X0 1 ef ]
-"53
-[; ;motor2.c: 53:         T2CONbits.T2CKPS1 = 1;
+"78
+[; ;motor2.c: 78:         T2CONbits.T2CKPS1 = 1;
 {
 [e :U _PWM1_Start ]
 [f ]
-"55
-[; ;motor2.c: 55:         PWM1CONbits.PRSEN = 1;
-[e = . . _CCP1CONbits 1 0 -> -> 0 `i `uc ]
-"56
-[; ;motor2.c: 56: 
-[e = . . _CCP1CONbits 1 1 -> -> 0 `i `uc ]
-"57
-[; ;motor2.c: 57: }
-[e = . . _CCP1CONbits 1 2 -> -> 1 `i `uc ]
-"58
-[; ;motor2.c: 58: 
-[e = . . _CCP1CONbits 1 3 -> -> 1 `i `uc ]
-"60
-[; ;motor2.c: 60: {
-[e = . . _T2CONbits 0 1 -> -> 1 `i `uc ]
-"62
-[; ;motor2.c: 62:    PWM1_Duty(250);
-[e = . . _OSCCONbits 1 4 -> -> 0 `i `uc ]
-"63
-[; ;motor2.c: 63: }
-[e = . . _OSCCONbits 1 5 -> -> 1 `i `uc ]
-"64
-[; ;motor2.c: 64: void Re()
-[e = . . _OSCCONbits 1 6 -> -> 1 `i `uc ]
-"66
-[; ;motor2.c: 66:     PWM1_Init(199);
-[e = . . _TRISCbits 1 2 -> -> 0 `i `uc ]
-"67
-[; ;motor2.c: 67:     PWM1_Duty(250);
-[e = . . _TRISDbits 0 7 -> -> 0 `i `uc ]
-"68
-[; ;motor2.c: 68: }
-[e = . . _TRISDbits 0 6 -> -> 0 `i `uc ]
-"69
-[; ;motor2.c: 69: void Mi()
-[e = . . _TRISDbits 0 5 -> -> 0 `i `uc ]
-"71
-[; ;motor2.c: 71:     PWM1_Init(175);
-[e = . . _T2CONbits 1 0 -> -> 0 `i `uc ]
-"72
-[; ;motor2.c: 72:     PWM1_Duty(250);
-[e = . . _T2CONbits 1 1 -> -> 1 `i `uc ]
-"74
-[; ;motor2.c: 74: void Fa()
-[e = . . _PWM1CONbits 0 1 -> -> 1 `i `uc ]
-"76
-[; ;motor2.c: 76:     PWM1_Init(165);
-[e :UE 286 ]
-}
-"78
-[; ;motor2.c: 78: }
-[v _Do `(v ~T0 @X0 1 ef ]
-"79
-[; ;motor2.c: 79: void So()
-{
-[e :U _Do ]
-[f ]
 "80
-[; ;motor2.c: 80: {
-[e ( _PWM1_Init (1 -> -> 224 `i `l ]
+[; ;motor2.c: 80:         PWM1CONbits.PRSEN = 1;
+[e = . . _CCP1CONbits 1 0 -> -> 0 `i `uc ]
 "81
-[; ;motor2.c: 81:     PWM1_Init(145);
-[e ( _PWM1_Duty (1 -> 250 `i ]
+[; ;motor2.c: 81: 
+[e = . . _CCP1CONbits 1 1 -> -> 0 `i `uc ]
 "82
-[; ;motor2.c: 82:     PWM1_Duty(250);
-[e :UE 287 ]
-}
+[; ;motor2.c: 82: }
+[e = . . _CCP1CONbits 1 2 -> -> 1 `i `uc ]
 "83
-[; ;motor2.c: 83: }
-[v _Re `(v ~T0 @X0 1 ef ]
-"84
-[; ;motor2.c: 84: void Quiet()
-{
-[e :U _Re ]
-[f ]
+[; ;motor2.c: 83: 
+[e = . . _CCP1CONbits 1 3 -> -> 1 `i `uc ]
 "85
 [; ;motor2.c: 85: {
-[e ( _PWM1_Init (1 -> -> 199 `i `l ]
-"86
-[; ;motor2.c: 86:     PWM1_Duty(0);
-[e ( _PWM1_Duty (1 -> 250 `i ]
+[e = . . _T2CONbits 0 1 -> -> 1 `i `uc ]
 "87
-[; ;motor2.c: 87: }
-[e :UE 288 ]
-}
+[; ;motor2.c: 87: 
+[e = . . _OSCCONbits 1 4 -> -> 0 `i `uc ]
 "88
-[; ;motor2.c: 88: void delay()
-[v _Mi `(v ~T0 @X0 1 ef ]
+[; ;motor2.c: 88:    if(n == 1){
+[e = . . _OSCCONbits 1 5 -> -> 1 `i `uc ]
 "89
-[; ;motor2.c: 89: {
-{
-[e :U _Mi ]
-[f ]
-"90
-[; ;motor2.c: 90:     int i;
-[e ( _PWM1_Init (1 -> -> 175 `i `l ]
+[; ;motor2.c: 89:         PWM1_Init(224);
+[e = . . _OSCCONbits 1 6 -> -> 1 `i `uc ]
 "91
-[; ;motor2.c: 91:     for(i = 0; i < 5000; i++)
-[e ( _PWM1_Duty (1 -> 250 `i ]
+[; ;motor2.c: 91:    }
+[e = . . _TRISCbits 1 2 -> -> 0 `i `uc ]
 "92
-[; ;motor2.c: 92:     {
-[e :UE 289 ]
-}
+[; ;motor2.c: 92:    else if(n == 2){
+[e = . . _TRISDbits 0 7 -> -> 0 `i `uc ]
 "93
-[; ;motor2.c: 93:         if( RD1 == 0 || RD2 == 0 || RD3 == 0 || RC3 == 0 )
-[v _Fa `(v ~T0 @X0 1 ef ]
+[; ;motor2.c: 93:         PWM1_Init(199);
+[e = . . _TRISDbits 0 6 -> -> 0 `i `uc ]
 "94
-[; ;motor2.c: 94:             flag = 1;
-{
-[e :U _Fa ]
-[f ]
-"95
-[; ;motor2.c: 95:     }
-[e ( _PWM1_Init (1 -> -> 165 `i `l ]
+[; ;motor2.c: 94:         PWM1_Duty(250);
+[e = . . _TRISDbits 0 5 -> -> 0 `i `uc ]
 "96
-[; ;motor2.c: 96: }
-[e ( _PWM1_Duty (1 -> 250 `i ]
+[; ;motor2.c: 96:    else if(n == 3){
+[e = . . _T2CONbits 1 0 -> -> 0 `i `uc ]
 "97
-[; ;motor2.c: 97: 
-[e :UE 290 ]
-}
-"98
-[; ;motor2.c: 98: void small_bee()
-[v _So `(v ~T0 @X0 1 ef ]
+[; ;motor2.c: 97:         PWM1_Init(175);
+[e = . . _T2CONbits 1 1 -> -> 1 `i `uc ]
 "99
-[; ;motor2.c: 99: {
-{
-[e :U _So ]
-[f ]
-"100
-[; ;motor2.c: 100:     So(); delay();if(flag == 1){flag = 0;return;}
-[e ( _PWM1_Init (1 -> -> 145 `i `l ]
+[; ;motor2.c: 99:    }
+[e = . . _PWM1CONbits 0 1 -> -> 1 `i `uc ]
 "101
-[; ;motor2.c: 101:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _PWM1_Duty (1 -> 250 `i ]
-"102
-[; ;motor2.c: 102:     Mi(); delay();if(flag == 1){flag = 0;return;}
+[; ;motor2.c: 101: void Re(int n)
 [e :UE 291 ]
 }
 "103
-[; ;motor2.c: 103:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[v _Quiet `(v ~T0 @X0 1 ef ]
+[; ;motor2.c: 103: 
+[v _Do `(v ~T0 @X0 1 ef1`i ]
 "104
-[; ;motor2.c: 104:     Mi(); delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
+[; ;motor2.c: 104:    if(n == 1){
+{
+[e :U _Do ]
+"103
+[; ;motor2.c: 103: 
+[v _n `i ~T0 @X0 1 r1 ]
+"104
+[; ;motor2.c: 104:    if(n == 1){
+[f ]
+"107
+[; ;motor2.c: 107:    }
+[e $ ! == _n -> 1 `i 293  ]
+{
+"108
+[; ;motor2.c: 108:    else if(n == 2){
+[e ( _PWM1_Init (1 -> -> 224 `i `l ]
+"109
+[; ;motor2.c: 109:         PWM1_Init(175);
+[e ( _PWM1_Duty (1 -> 250 `i ]
+"110
+[; ;motor2.c: 110:         PWM1_Duty(250);
+}
+[e $U 294  ]
+"111
+[; ;motor2.c: 111:    }
+[e :U 293 ]
+[e $ ! == _n -> 2 `i 295  ]
+{
+"112
+[; ;motor2.c: 112:    else if(n == 3){
+[e ( _PWM1_Init (1 -> -> 199 `i `l ]
+"113
+[; ;motor2.c: 113:         PWM1_Init(165);
+[e ( _PWM1_Duty (1 -> 250 `i ]
+"114
+[; ;motor2.c: 114:         PWM1_Duty(250);
+}
+[e $U 296  ]
+"115
+[; ;motor2.c: 115:    }
+[e :U 295 ]
+[e $ ! == _n -> 3 `i 297  ]
+{
+"116
+[; ;motor2.c: 116: }
+[e ( _PWM1_Init (1 -> -> 175 `i `l ]
+"117
+[; ;motor2.c: 117: void Mi(int n)
+[e ( _PWM1_Duty (1 -> 250 `i ]
+"118
+[; ;motor2.c: 118: {
+}
+[e :U 297 ]
+[e :U 296 ]
+[e :U 294 ]
+"119
+[; ;motor2.c: 119: 
+[e :UE 292 ]
+}
+"120
+[; ;motor2.c: 120:    if(n == 1){
+[v _Re `(v ~T0 @X0 1 ef1`i ]
+"121
+[; ;motor2.c: 121:         PWM1_Init(175);
+{
+[e :U _Re ]
+"120
+[; ;motor2.c: 120:    if(n == 1){
+[v _n `i ~T0 @X0 1 r1 ]
+"121
+[; ;motor2.c: 121:         PWM1_Init(175);
+[f ]
+"123
+[; ;motor2.c: 123:    }
+[e $ ! == _n -> 1 `i 299  ]
+{
+"124
+[; ;motor2.c: 124:    else if(n == 2){
+[e ( _PWM1_Init (1 -> -> 199 `i `l ]
+"125
+[; ;motor2.c: 125:         PWM1_Init(165);
+[e ( _PWM1_Duty (1 -> 250 `i ]
+"126
+[; ;motor2.c: 126:         PWM1_Duty(250);
+}
+[e $U 300  ]
+"127
+[; ;motor2.c: 127:    }
+[e :U 299 ]
+[e $ ! == _n -> 2 `i 301  ]
+{
+"128
+[; ;motor2.c: 128:    else if(n == 3){
+[e ( _PWM1_Init (1 -> -> 175 `i `l ]
+"129
+[; ;motor2.c: 129:         PWM1_Init(145);
+[e ( _PWM1_Duty (1 -> 250 `i ]
+"130
+[; ;motor2.c: 130:         PWM1_Duty(250);
+}
+[e $U 302  ]
+"131
+[; ;motor2.c: 131:    }
+[e :U 301 ]
+[e $ ! == _n -> 3 `i 303  ]
+{
+"132
+[; ;motor2.c: 132: }
+[e ( _PWM1_Init (1 -> -> 165 `i `l ]
+"133
+[; ;motor2.c: 133: void Fa(int n)
+[e ( _PWM1_Duty (1 -> 250 `i ]
+"134
+[; ;motor2.c: 134: {
+}
+[e :U 303 ]
+[e :U 302 ]
+[e :U 300 ]
+"135
+[; ;motor2.c: 135: 
+[e :UE 298 ]
+}
+"136
+[; ;motor2.c: 136:    if(n == 1){
+[v _Mi `(v ~T0 @X0 1 ef1`i ]
+"137
+[; ;motor2.c: 137:         PWM1_Init(165);
+{
+[e :U _Mi ]
+"136
+[; ;motor2.c: 136:    if(n == 1){
+[v _n `i ~T0 @X0 1 r1 ]
+"137
+[; ;motor2.c: 137:         PWM1_Init(165);
+[f ]
+"139
+[; ;motor2.c: 139:    }
+[e $ ! == _n -> 1 `i 305  ]
+{
+"140
+[; ;motor2.c: 140:    else if(n == 2){
+[e ( _PWM1_Init (1 -> -> 175 `i `l ]
+"141
+[; ;motor2.c: 141:         PWM1_Init(145);
+[e ( _PWM1_Duty (1 -> 250 `i ]
+"142
+[; ;motor2.c: 142:         PWM1_Duty(250);
+}
+[e $U 306  ]
+"143
+[; ;motor2.c: 143:    }
+[e :U 305 ]
+[e $ ! == _n -> 2 `i 307  ]
+{
+"144
+[; ;motor2.c: 144:    else if(n == 3){
+[e ( _PWM1_Init (1 -> -> 165 `i `l ]
+"145
+[; ;motor2.c: 145:         PWM1_Init(165);
+[e ( _PWM1_Duty (1 -> 250 `i ]
+"146
+[; ;motor2.c: 146:         PWM1_Duty(250);
+}
+[e $U 308  ]
+"147
+[; ;motor2.c: 147:    }
+[e :U 307 ]
+[e $ ! == _n -> 3 `i 309  ]
+{
+"148
+[; ;motor2.c: 148: }
+[e ( _PWM1_Init (1 -> -> 145 `i `l ]
+"149
+[; ;motor2.c: 149: void So(int n)
+[e ( _PWM1_Duty (1 -> 250 `i ]
+"150
+[; ;motor2.c: 150: {
+}
+[e :U 309 ]
+[e :U 308 ]
+[e :U 306 ]
+"151
+[; ;motor2.c: 151: 
+[e :UE 304 ]
+}
+"152
+[; ;motor2.c: 152:    if(n == 1){
+[v _Fa `(v ~T0 @X0 1 ef1`i ]
+"153
+[; ;motor2.c: 153:         PWM1_Init(250);
+{
+[e :U _Fa ]
+"152
+[; ;motor2.c: 152:    if(n == 1){
+[v _n `i ~T0 @X0 1 r1 ]
+"153
+[; ;motor2.c: 153:         PWM1_Init(250);
+[f ]
+"155
+[; ;motor2.c: 155:    }
+[e $ ! == _n -> 1 `i 311  ]
+{
+"156
+[; ;motor2.c: 156:    else if(n == 2){
+[e ( _PWM1_Init (1 -> -> 165 `i `l ]
+"157
+[; ;motor2.c: 157:         PWM1_Init(200);
+[e ( _PWM1_Duty (1 -> 250 `i ]
+"158
+[; ;motor2.c: 158:         PWM1_Duty(250);
+}
+[e $U 312  ]
+"159
+[; ;motor2.c: 159:    }
+[e :U 311 ]
+[e $ ! == _n -> 2 `i 313  ]
+{
+"160
+[; ;motor2.c: 160:    else if(n == 3){
+[e ( _PWM1_Init (1 -> -> 145 `i `l ]
+"161
+[; ;motor2.c: 161:         PWM1_Init(150);
+[e ( _PWM1_Duty (1 -> 250 `i ]
+"162
+[; ;motor2.c: 162:         PWM1_Duty(250);
+}
+[e $U 314  ]
+"163
+[; ;motor2.c: 163:    }
+[e :U 313 ]
+[e $ ! == _n -> 3 `i 315  ]
+{
+"164
+[; ;motor2.c: 164: }
+[e ( _PWM1_Init (1 -> -> 165 `i `l ]
+"165
+[; ;motor2.c: 165: void La(int n)
+[e ( _PWM1_Duty (1 -> 250 `i ]
+"166
+[; ;motor2.c: 166: {
+}
+[e :U 315 ]
+[e :U 314 ]
+[e :U 312 ]
+"167
+[; ;motor2.c: 167: 
+[e :UE 310 ]
+}
+"168
+[; ;motor2.c: 168:    if(n == 1){
+[v _So `(v ~T0 @X0 1 ef1`i ]
+"169
+[; ;motor2.c: 169:         PWM1_Init(250);
+{
+[e :U _So ]
+"168
+[; ;motor2.c: 168:    if(n == 1){
+[v _n `i ~T0 @X0 1 r1 ]
+"169
+[; ;motor2.c: 169:         PWM1_Init(250);
+[f ]
+"171
+[; ;motor2.c: 171:    }
+[e $ ! == _n -> 1 `i 317  ]
+{
+"172
+[; ;motor2.c: 172:    else if(n == 2){
+[e ( _PWM1_Init (1 -> -> 250 `i `l ]
+"173
+[; ;motor2.c: 173:         PWM1_Init(200);
+[e ( _PWM1_Duty (1 -> 250 `i ]
+"174
+[; ;motor2.c: 174:         PWM1_Duty(250);
+}
+[e $U 318  ]
+"175
+[; ;motor2.c: 175:    }
+[e :U 317 ]
+[e $ ! == _n -> 2 `i 319  ]
+{
+"176
+[; ;motor2.c: 176:    else if(n == 3){
+[e ( _PWM1_Init (1 -> -> 200 `i `l ]
+"177
+[; ;motor2.c: 177:         PWM1_Init(150);
+[e ( _PWM1_Duty (1 -> 250 `i ]
+"178
+[; ;motor2.c: 178:         PWM1_Duty(250);
+}
+[e $U 320  ]
+"179
+[; ;motor2.c: 179:    }
+[e :U 319 ]
+[e $ ! == _n -> 3 `i 321  ]
+{
+"180
+[; ;motor2.c: 180: }
+[e ( _PWM1_Init (1 -> -> 150 `i `l ]
+"181
+[; ;motor2.c: 181: 
+[e ( _PWM1_Duty (1 -> 250 `i ]
+"182
+[; ;motor2.c: 182: void Si(int n)
+}
+[e :U 321 ]
+[e :U 320 ]
+[e :U 318 ]
+"183
+[; ;motor2.c: 183: {
+[e :UE 316 ]
+}
+"184
+[; ;motor2.c: 184: 
+[v _La `(v ~T0 @X0 1 ef1`i ]
+"185
+[; ;motor2.c: 185:    if(n == 1){
+{
+[e :U _La ]
+"184
+[; ;motor2.c: 184: 
+[v _n `i ~T0 @X0 1 r1 ]
+"185
+[; ;motor2.c: 185:    if(n == 1){
+[f ]
+"187
+[; ;motor2.c: 187:         PWM1_Duty(250);
+[e $ ! == _n -> 1 `i 323  ]
+{
+"188
+[; ;motor2.c: 188:    }
+[e ( _PWM1_Init (1 -> -> 250 `i `l ]
+"189
+[; ;motor2.c: 189:    else if(n == 2){
+[e ( _PWM1_Duty (1 -> 250 `i ]
+"190
+[; ;motor2.c: 190:         PWM1_Init(200);
+}
+[e $U 324  ]
+"191
+[; ;motor2.c: 191:         PWM1_Duty(250);
+[e :U 323 ]
+[e $ ! == _n -> 2 `i 325  ]
+{
+"192
+[; ;motor2.c: 192:    }
+[e ( _PWM1_Init (1 -> -> 200 `i `l ]
+"193
+[; ;motor2.c: 193:    else if(n == 3){
+[e ( _PWM1_Duty (1 -> 250 `i ]
+"194
+[; ;motor2.c: 194:         PWM1_Init(150);
+}
+[e $U 326  ]
+"195
+[; ;motor2.c: 195:         PWM1_Duty(250);
+[e :U 325 ]
+[e $ ! == _n -> 3 `i 327  ]
+{
+"196
+[; ;motor2.c: 196:    }
+[e ( _PWM1_Init (1 -> -> 150 `i `l ]
+"197
+[; ;motor2.c: 197: }
+[e ( _PWM1_Duty (1 -> 250 `i ]
+"198
+[; ;motor2.c: 198: void Quiet()
+}
+[e :U 327 ]
+[e :U 326 ]
+[e :U 324 ]
+"199
+[; ;motor2.c: 199: {
+[e :UE 322 ]
+}
+"201
+[; ;motor2.c: 201: }
+[v _Si `(v ~T0 @X0 1 ef1`i ]
+"202
+[; ;motor2.c: 202: void delay()
+{
+[e :U _Si ]
+"201
+[; ;motor2.c: 201: }
+[v _n `i ~T0 @X0 1 r1 ]
+"202
+[; ;motor2.c: 202: void delay()
+[f ]
+"204
+[; ;motor2.c: 204:     int i;
+[e $ ! == _n -> 1 `i 329  ]
+{
+"205
+[; ;motor2.c: 205:     for(i = 0; i < 5000; i++)
+[e ( _PWM1_Init (1 -> -> 250 `i `l ]
+"206
+[; ;motor2.c: 206:     {
+[e ( _PWM1_Duty (1 -> 250 `i ]
+"207
+[; ;motor2.c: 207:         if( RD1 == 0 || RD2 == 0 || RD3 == 0 || RC3 == 0 )
+}
+[e $U 330  ]
+"208
+[; ;motor2.c: 208:             flag = 1;
+[e :U 329 ]
+[e $ ! == _n -> 2 `i 331  ]
+{
+"209
+[; ;motor2.c: 209:     }
+[e ( _PWM1_Init (1 -> -> 200 `i `l ]
+"210
+[; ;motor2.c: 210: }
+[e ( _PWM1_Duty (1 -> 250 `i ]
+"211
+[; ;motor2.c: 211: 
+}
+[e $U 332  ]
+"212
+[; ;motor2.c: 212: void small_bee()
+[e :U 331 ]
+[e $ ! == _n -> 3 `i 333  ]
+{
+"213
+[; ;motor2.c: 213: {
+[e ( _PWM1_Init (1 -> -> 150 `i `l ]
+"214
+[; ;motor2.c: 214:     So(n); delay();if(flag == 1){flag = 0;return;}
+[e ( _PWM1_Duty (1 -> 250 `i ]
+"215
+[; ;motor2.c: 215:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+}
+[e :U 333 ]
+[e :U 332 ]
+[e :U 330 ]
+"216
+[; ;motor2.c: 216:     Mi(n); delay();if(flag == 1){flag = 0;return;}
+[e :UE 328 ]
+}
+"217
+[; ;motor2.c: 217:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[v _Quiet `(v ~T0 @X0 1 ef ]
+"218
+[; ;motor2.c: 218:     Mi(n); delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
 {
 [e :U _Quiet ]
 [f ]
-"105
-[; ;motor2.c: 105:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+"219
+[; ;motor2.c: 219:     Quiet(); delay();if(flag == 1){flag = 0;return;}
 [e ( _PWM1_Duty (1 -> 0 `i ]
-"106
-[; ;motor2.c: 106:     Fa(); delay();if(flag == 1){flag = 0;return;}
-[e :UE 292 ]
+"220
+[; ;motor2.c: 220:     Fa(n); delay();if(flag == 1){flag = 0;return;}
+[e :UE 334 ]
 }
-"107
-[; ;motor2.c: 107:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+"221
+[; ;motor2.c: 221:     Quiet(); delay();if(flag == 1){flag = 0;return;}
 [v _delay `(v ~T0 @X0 1 ef ]
-"108
-[; ;motor2.c: 108:     Re(); delay();if(flag == 1){flag = 0;return;}
+"222
+[; ;motor2.c: 222:     Re(n); delay();if(flag == 1){flag = 0;return;}
 {
 [e :U _delay ]
 [f ]
-"109
-[; ;motor2.c: 109:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+"223
+[; ;motor2.c: 223:     Quiet(); delay();if(flag == 1){flag = 0;return;}
 [v _i `i ~T0 @X0 1 a ]
-"110
-[; ;motor2.c: 110:     Re(); delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
+"224
+[; ;motor2.c: 224:     Re(n); delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
 {
 [e = _i -> 0 `i ]
-[e $ < _i -> 5000 `i 294  ]
-[e $U 295  ]
-[e :U 294 ]
-"111
-[; ;motor2.c: 111:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e $ < _i -> 5000 `i 336  ]
+[e $U 337  ]
+[e :U 336 ]
+"225
+[; ;motor2.c: 225:     Quiet(); delay();if(flag == 1){flag = 0;return;}
 {
-"112
-[; ;motor2.c: 112:     Do(); delay();if(flag == 1){flag = 0;return;}
-[e $ ! || || || == -> _RD1 `i -> 0 `i == -> _RD2 `i -> 0 `i == -> _RD3 `i -> 0 `i == -> _RC3 `i -> 0 `i 297  ]
-"113
-[; ;motor2.c: 113:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+"226
+[; ;motor2.c: 226:     Do(n); delay();if(flag == 1){flag = 0;return;}
+[e $ ! || || || == -> _RD1 `i -> 0 `i == -> _RD2 `i -> 0 `i == -> _RD3 `i -> 0 `i == -> _RC3 `i -> 0 `i 339  ]
+"227
+[; ;motor2.c: 227:     Quiet(); delay();if(flag == 1){flag = 0;return;}
 [e = _flag -> 1 `i ]
-[e :U 297 ]
-"114
-[; ;motor2.c: 114:     Re(); delay();if(flag == 1){flag = 0;return;}
+[e :U 339 ]
+"228
+[; ;motor2.c: 228:     Re(n); delay();if(flag == 1){flag = 0;return;}
 }
 [e ++ _i -> 1 `i ]
-[e $ < _i -> 5000 `i 294  ]
-[e :U 295 ]
+[e $ < _i -> 5000 `i 336  ]
+[e :U 337 ]
 }
-"115
-[; ;motor2.c: 115:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e :UE 293 ]
+"229
+[; ;motor2.c: 229:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e :UE 335 ]
 }
-"117
-[; ;motor2.c: 117:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+"231
+[; ;motor2.c: 231:     Quiet(); delay();if(flag == 1){flag = 0;return;}
 [v _small_bee `(v ~T0 @X0 1 ef ]
-"118
-[; ;motor2.c: 118:     Fa(); delay();if(flag == 1){flag = 0;return;}
+"232
+[; ;motor2.c: 232:     Fa(n); delay();if(flag == 1){flag = 0;return;}
 {
 [e :U _small_bee ]
 [f ]
-"119
-[; ;motor2.c: 119:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _So ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 299  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 299 ]
-"120
-[; ;motor2.c: 120:     So(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 300  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 300 ]
-"121
-[; ;motor2.c: 121:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Mi ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 301  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 301 ]
-"122
-[; ;motor2.c: 122:     So(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 302  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 302 ]
-"123
-[; ;motor2.c: 123:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Mi ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 303  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 303 ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 304  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 304 ]
-"124
-[; ;motor2.c: 124:     So(); delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 305  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 305 ]
-"125
-[; ;motor2.c: 125:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Fa ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 306  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 306 ]
-"126
-[; ;motor2.c: 126:     So(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 307  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 307 ]
-"127
-[; ;motor2.c: 127:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Re ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 308  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 308 ]
-"128
-[; ;motor2.c: 128:     Mi(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 309  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 309 ]
-"129
-[; ;motor2.c: 129:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Re ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 310  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 310 ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 311  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 311 ]
-"130
-[; ;motor2.c: 130:     Mi(); delay(); if(flag == 1){flag = 0;return;}delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 312  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 312 ]
-"131
-[; ;motor2.c: 131:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Do ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 313  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 313 ]
-"132
-[; ;motor2.c: 132:     Fa(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 314  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 314 ]
-"133
-[; ;motor2.c: 133:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Re ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 315  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 315 ]
-"134
-[; ;motor2.c: 134:     Re(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 316  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 316 ]
-"135
-[; ;motor2.c: 135:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Mi ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 317  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 317 ]
-"136
-[; ;motor2.c: 136:     Re(); delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 318  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 318 ]
-"137
-[; ;motor2.c: 137:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Fa ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 319  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 319 ]
-"138
-[; ;motor2.c: 138:     Do(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 320  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 320 ]
-"139
-[; ;motor2.c: 139:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _So ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 321  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 321 ]
-"140
-[; ;motor2.c: 140:     Mi(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 322  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 322 ]
-"141
-[; ;motor2.c: 141:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _So ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 323  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 323 ]
-"142
-[; ;motor2.c: 142:      So(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 324  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 324 ]
-"143
-[; ;motor2.c: 143:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _So ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 325  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 325 ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 326  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 326 ]
-"144
-[; ;motor2.c: 144:     So(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 327  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 327 ]
-"145
-[; ;motor2.c: 145:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _So ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 328  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 328 ]
-"146
-[; ;motor2.c: 146:     Mi(); delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 329  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 329 ]
-"147
-[; ;motor2.c: 147:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Mi ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 330  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 330 ]
-"148
-[; ;motor2.c: 148:     Re(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 331  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 331 ]
-"149
-[; ;motor2.c: 149:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Mi ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 332  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 332 ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 333  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 333 ]
-"150
-[; ;motor2.c: 150:     Re(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 334  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 334 ]
-"151
-[; ;motor2.c: 151:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Fa ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 335  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 335 ]
-"152
-[; ;motor2.c: 152:     Re(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 336  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 336 ]
-"153
-[; ;motor2.c: 153:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Re ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 337  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 337 ]
-"154
-[; ;motor2.c: 154:     Re(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 338  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 338 ]
-"155
-[; ;motor2.c: 155:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Re ..  ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 339  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 339 ]
-[e ( _delay ..  ]
-[e $ ! == _flag -> 1 `i 340  ]
-{
-[e = _flag -> 0 `i ]
-[e $UE 298  ]
-}
-[e :U 340 ]
-"156
-[; ;motor2.c: 156:     Re(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
+"233
+[; ;motor2.c: 233:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _So (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 341  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 341 ]
-"157
-[; ;motor2.c: 157:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Do ..  ]
+"234
+[; ;motor2.c: 234:     So(n); delay();if(flag == 1){flag = 0;return;}
+[e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 342  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 342 ]
-"158
-[; ;motor2.c: 158:     Mi(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
+"235
+[; ;motor2.c: 235:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Mi (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 343  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 343 ]
-"159
-[; ;motor2.c: 159:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Mi ..  ]
+"236
+[; ;motor2.c: 236:     So(n); delay();if(flag == 1){flag = 0;return;}
+[e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 344  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 344 ]
-"160
-[; ;motor2.c: 160:     Fa(); delay();if(flag == 1){flag = 0;return;}delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
+"237
+[; ;motor2.c: 237:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Mi (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 345  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 345 ]
-"161
-[; ;motor2.c: 161:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _So ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 346  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 346 ]
-"162
-[; ;motor2.c: 162:     Mi(); delay();if(flag == 1){flag = 0;return;}
+"238
+[; ;motor2.c: 238:     So(n); delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
 [e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 347  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 347 ]
-"163
-[; ;motor2.c: 163:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _So ..  ]
+"239
+[; ;motor2.c: 239:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Fa (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 348  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 348 ]
-"164
-[; ;motor2.c: 164:     Mi(); delay();if(flag == 1){flag = 0;return;}
+"240
+[; ;motor2.c: 240:     So(n); delay();if(flag == 1){flag = 0;return;}
 [e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 349  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 349 ]
-"165
-[; ;motor2.c: 165:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Mi ..  ]
+"241
+[; ;motor2.c: 241:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Re (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 350  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 350 ]
+"242
+[; ;motor2.c: 242:     Mi(n); delay();if(flag == 1){flag = 0;return;}
+[e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 351  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 351 ]
+"243
+[; ;motor2.c: 243:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Re (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 352  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 352 ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 353  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 353 ]
-"166
-[; ;motor2.c: 166:     Mi(); delay();if(flag == 1){flag = 0;return;}
+"244
+[; ;motor2.c: 244:     Mi(n); delay(); if(flag == 1){flag = 0;return;}delay();if(flag == 1){flag = 0;return;}
 [e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 354  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 354 ]
-"167
-[; ;motor2.c: 167:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Re ..  ]
+"245
+[; ;motor2.c: 245:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Do (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 355  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 355 ]
-"168
-[; ;motor2.c: 168:     Mi(); delay();if(flag == 1){flag = 0;return;}
+"246
+[; ;motor2.c: 246:     Fa(n); delay();if(flag == 1){flag = 0;return;}
 [e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 356  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 356 ]
-"169
-[; ;motor2.c: 169:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Re ..  ]
+"247
+[; ;motor2.c: 247:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Re (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 357  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 357 ]
-"170
-[; ;motor2.c: 170:     Mi(); delay();if(flag == 1){flag = 0;return;}
+"248
+[; ;motor2.c: 248:     Re(n); delay();if(flag == 1){flag = 0;return;}
 [e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 358  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 358 ]
-"171
-[; ;motor2.c: 171:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Re ..  ]
+"249
+[; ;motor2.c: 249:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Mi (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 359  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 359 ]
-"172
-[; ;motor2.c: 172:     Fa(); delay();if(flag == 1){flag = 0;return;}
+"250
+[; ;motor2.c: 250:     Re(n); delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
 [e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 360  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 360 ]
-"173
-[; ;motor2.c: 173:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Re ..  ]
+"251
+[; ;motor2.c: 251:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Fa (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 361  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 361 ]
-"174
-[; ;motor2.c: 174:     So(); delay();if(flag == 1){flag = 0;return;}delay();if(flag == 1){flag = 0;return;}
+"252
+[; ;motor2.c: 252:     Do(n); delay();if(flag == 1){flag = 0;return;}
 [e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 362  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 362 ]
-"175
-[; ;motor2.c: 175:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Re ..  ]
+"253
+[; ;motor2.c: 253:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _So (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 363  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 363 ]
-"176
-[; ;motor2.c: 176:     So(); delay();if(flag == 1){flag = 0;return;}
+"254
+[; ;motor2.c: 254:     Mi(n); delay();if(flag == 1){flag = 0;return;}
 [e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 364  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 364 ]
-"177
-[; ;motor2.c: 177:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Mi ..  ]
+"255
+[; ;motor2.c: 255:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _So (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 365  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 365 ]
-"178
-[; ;motor2.c: 178:     Mi(); delay();if(flag == 1){flag = 0;return;}
+"256
+[; ;motor2.c: 256:      So(n); delay();if(flag == 1){flag = 0;return;}
 [e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 366  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 366 ]
-"179
-[; ;motor2.c: 179:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Fa ..  ]
+"257
+[; ;motor2.c: 257:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _So (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 367  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 367 ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 368  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 368 ]
-"180
-[; ;motor2.c: 180:     Mi(); delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
+"258
+[; ;motor2.c: 258:     So(n); delay();if(flag == 1){flag = 0;return;}
 [e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 369  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 369 ]
-"181
-[; ;motor2.c: 181:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Mi ..  ]
+"259
+[; ;motor2.c: 259:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _So (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 370  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 370 ]
-"182
-[; ;motor2.c: 182:     Fa(); delay();if(flag == 1){flag = 0;return;}
+"260
+[; ;motor2.c: 260:     Mi(n); delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
 [e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 371  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 371 ]
-"183
-[; ;motor2.c: 183:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Mi ..  ]
+"261
+[; ;motor2.c: 261:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Mi (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 372  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 372 ]
-"184
-[; ;motor2.c: 184:     Re(); delay();if(flag == 1){flag = 0;return;}
+"262
+[; ;motor2.c: 262:     Re(n); delay();if(flag == 1){flag = 0;return;}
 [e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 373  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 373 ]
-"185
-[; ;motor2.c: 185:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Mi ..  ]
+"263
+[; ;motor2.c: 263:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Mi (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 374  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 374 ]
-"186
-[; ;motor2.c: 186:     Re(); delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 375  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 375 ]
-"187
-[; ;motor2.c: 187:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Mi ..  ]
+"264
+[; ;motor2.c: 264:     Re(n); delay();if(flag == 1){flag = 0;return;}
+[e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 376  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 376 ]
-"188
-[; ;motor2.c: 188:     Do(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
+"265
+[; ;motor2.c: 265:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Fa (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 377  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 377 ]
-"189
-[; ;motor2.c: 189:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Mi ..  ]
+"266
+[; ;motor2.c: 266:     Re(n); delay();if(flag == 1){flag = 0;return;}
+[e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 378  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 378 ]
-"190
-[; ;motor2.c: 190:     Mi(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
+"267
+[; ;motor2.c: 267:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Re (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 379  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 379 ]
-"191
-[; ;motor2.c: 191:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Fa ..  ]
+"268
+[; ;motor2.c: 268:     Re(n); delay();if(flag == 1){flag = 0;return;}
+[e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 380  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 380 ]
-"192
-[; ;motor2.c: 192:      So(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
+"269
+[; ;motor2.c: 269:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Re (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 381  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 381 ]
-"193
-[; ;motor2.c: 193:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _So ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 382  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 382 ]
+"270
+[; ;motor2.c: 270:     Re(n); delay();if(flag == 1){flag = 0;return;}
+[e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 383  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 383 ]
-"194
-[; ;motor2.c: 194:     So(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
+"271
+[; ;motor2.c: 271:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Do (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 384  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 384 ]
-"195
-[; ;motor2.c: 195:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _So ..  ]
+"272
+[; ;motor2.c: 272:     Mi(n); delay();if(flag == 1){flag = 0;return;}
+[e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 385  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 385 ]
-"196
-[; ;motor2.c: 196:     Do(); delay(); if(flag == 1){flag = 0;return;}delay();if(flag == 1){flag = 0;return;}delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
-[e ( _Quiet ..  ]
+"273
+[; ;motor2.c: 273:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Mi (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 386  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 386 ]
-"197
-[; ;motor2.c: 197:     Quiet(); delay();if(flag == 1){flag = 0;return;}
-[e ( _Mi ..  ]
+"274
+[; ;motor2.c: 274:     Fa(n); delay();if(flag == 1){flag = 0;return;}delay();if(flag == 1){flag = 0;return;}
+[e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 387  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 387 ]
-"198
-[; ;motor2.c: 198: }
-[e ( _Quiet ..  ]
+"275
+[; ;motor2.c: 275:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _So (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 388  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 388 ]
-"199
-[; ;motor2.c: 199: 
-[e ( _Mi ..  ]
+"276
+[; ;motor2.c: 276:     Mi(n); delay();if(flag == 1){flag = 0;return;}
+[e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 389  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 389 ]
+"277
+[; ;motor2.c: 277:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _So (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 390  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 390 ]
-"200
-[; ;motor2.c: 200: void main()
+"278
+[; ;motor2.c: 278:     Mi(n); delay();if(flag == 1){flag = 0;return;}
 [e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 391  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 391 ]
-"201
-[; ;motor2.c: 201: {
-[e ( _Fa ..  ]
+"279
+[; ;motor2.c: 279:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Mi (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 392  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 392 ]
-"202
-[; ;motor2.c: 202: 
-[e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 393  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 393 ]
-"203
-[; ;motor2.c: 203:     PWM1_Start();
-[e ( _Re ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 394  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 394 ]
-"204
-[; ;motor2.c: 204:     int i = 0, j = 0, flag = 0;
-[e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 395  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 395 ]
-"205
-[; ;motor2.c: 205: 
-[e ( _Re ..  ]
+"280
+[; ;motor2.c: 280:     Mi(n); delay();if(flag == 1){flag = 0;return;}
+[e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 396  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 396 ]
+"281
+[; ;motor2.c: 281:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Re (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 397  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 397 ]
-"206
-[; ;motor2.c: 206:     TRISDbits.RD0 = 1;
+"282
+[; ;motor2.c: 282:     Mi(n); delay();if(flag == 1){flag = 0;return;}
 [e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 398  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 398 ]
-"207
-[; ;motor2.c: 207:     TRISDbits.RD1 = 1;
-[e ( _Do ..  ]
+"283
+[; ;motor2.c: 283:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Re (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 399  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 399 ]
-"208
-[; ;motor2.c: 208:     TRISDbits.RD2 = 1;
+"284
+[; ;motor2.c: 284:     Mi(n); delay();if(flag == 1){flag = 0;return;}
 [e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 400  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 400 ]
-"209
-[; ;motor2.c: 209:     TRISDbits.RD3 = 1;
-[e ( _Mi ..  ]
+"285
+[; ;motor2.c: 285:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Re (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 401  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 401 ]
-"210
-[; ;motor2.c: 210:     TRISCbits.RC3 = 1;
+"286
+[; ;motor2.c: 286:     Fa(n); delay();if(flag == 1){flag = 0;return;}
 [e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 402  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 402 ]
-"211
-[; ;motor2.c: 211: 
-[e ( _So ..  ]
+"287
+[; ;motor2.c: 287:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Re (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 403  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 403 ]
-"212
-[; ;motor2.c: 212: 
+"288
+[; ;motor2.c: 288:     So(n); delay();if(flag == 1){flag = 0;return;}delay();if(flag == 1){flag = 0;return;}
 [e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 404  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 404 ]
-"213
-[; ;motor2.c: 213: 
-[e ( _So ..  ]
+"289
+[; ;motor2.c: 289:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Re (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 405  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 405 ]
-"214
-[; ;motor2.c: 214:     TRISA = 0;
+"290
+[; ;motor2.c: 290:     So(n); delay();if(flag == 1){flag = 0;return;}
 [e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 406  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 406 ]
-"215
-[; ;motor2.c: 215:     LATA = 0;
-[e ( _Do ..  ]
+"291
+[; ;motor2.c: 291:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Mi (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 407  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 407 ]
+"292
+[; ;motor2.c: 292:     Mi(n); delay();if(flag == 1){flag = 0;return;}
+[e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 408  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 408 ]
+"293
+[; ;motor2.c: 293:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Fa (1 _n ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 409  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 409 ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 410  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 410 ]
-"216
-[; ;motor2.c: 216:     while(1)
+"294
+[; ;motor2.c: 294:     Mi(n); delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
 [e ( _Quiet ..  ]
 [e ( _delay ..  ]
 [e $ ! == _flag -> 1 `i 411  ]
 {
 [e = _flag -> 0 `i ]
-[e $UE 298  ]
+[e $UE 340  ]
 }
 [e :U 411 ]
-"217
-[; ;motor2.c: 217:     {
-[e :UE 298 ]
+"295
+[; ;motor2.c: 295:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Mi (1 _n ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 412  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 412 ]
+"296
+[; ;motor2.c: 296:     Fa(n); delay();if(flag == 1){flag = 0;return;}
+[e ( _Quiet ..  ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 413  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 413 ]
+"297
+[; ;motor2.c: 297:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Mi (1 _n ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 414  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 414 ]
+"298
+[; ;motor2.c: 298:     Re(n); delay();if(flag == 1){flag = 0;return;}
+[e ( _Quiet ..  ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 415  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 415 ]
+"299
+[; ;motor2.c: 299:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Mi (1 _n ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 416  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 416 ]
+"300
+[; ;motor2.c: 300:     Re(n); delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
+[e ( _Quiet ..  ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 417  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 417 ]
+"301
+[; ;motor2.c: 301:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Mi (1 _n ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 418  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 418 ]
+"302
+[; ;motor2.c: 302:     Do(n); delay();if(flag == 1){flag = 0;return;}
+[e ( _Quiet ..  ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 419  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 419 ]
+"303
+[; ;motor2.c: 303:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Mi (1 _n ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 420  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 420 ]
+"304
+[; ;motor2.c: 304:     Mi(n); delay();if(flag == 1){flag = 0;return;}
+[e ( _Quiet ..  ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 421  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 421 ]
+"305
+[; ;motor2.c: 305:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Fa (1 _n ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 422  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 422 ]
+"306
+[; ;motor2.c: 306:      So(n); delay();if(flag == 1){flag = 0;return;}
+[e ( _Quiet ..  ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 423  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 423 ]
+"307
+[; ;motor2.c: 307:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _So (1 _n ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 424  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 424 ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 425  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 425 ]
+"308
+[; ;motor2.c: 308:     So(n); delay();if(flag == 1){flag = 0;return;}
+[e ( _Quiet ..  ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 426  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 426 ]
+"309
+[; ;motor2.c: 309:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _So (1 _n ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 427  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 427 ]
+"310
+[; ;motor2.c: 310:     Do(n); delay(); if(flag == 1){flag = 0;return;}delay();if(flag == 1){flag = 0;return;}delay();if(flag == 1){flag = 0;return;} delay();if(flag == 1){flag = 0;return;}
+[e ( _Quiet ..  ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 428  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 428 ]
+"311
+[; ;motor2.c: 311:     Quiet(); delay();if(flag == 1){flag = 0;return;}
+[e ( _Mi (1 _n ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 429  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 429 ]
+"312
+[; ;motor2.c: 312: }
+[e ( _Quiet ..  ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 430  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 430 ]
+"313
+[; ;motor2.c: 313: 
+[e ( _Mi (1 _n ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 431  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 431 ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 432  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 432 ]
+"314
+[; ;motor2.c: 314: void main()
+[e ( _Quiet ..  ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 433  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 433 ]
+"315
+[; ;motor2.c: 315: {
+[e ( _Fa (1 _n ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 434  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 434 ]
+"316
+[; ;motor2.c: 316: 
+[e ( _Quiet ..  ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 435  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 435 ]
+"317
+[; ;motor2.c: 317: 
+[e ( _Re (1 _n ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 436  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 436 ]
+"318
+[; ;motor2.c: 318:     PWM1_Start();
+[e ( _Quiet ..  ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 437  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 437 ]
+"319
+[; ;motor2.c: 319:     int i = 0, j = 0, flag = 0;
+[e ( _Re (1 _n ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 438  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 438 ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 439  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 439 ]
+"320
+[; ;motor2.c: 320: 
+[e ( _Quiet ..  ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 440  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 440 ]
+"321
+[; ;motor2.c: 321:     TRISDbits.RD0 = 1;
+[e ( _Do (1 _n ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 441  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 441 ]
+"322
+[; ;motor2.c: 322:     TRISDbits.RD1 = 1;
+[e ( _Quiet ..  ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 442  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 442 ]
+"323
+[; ;motor2.c: 323:     TRISDbits.RD2 = 1;
+[e ( _Mi (1 _n ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 443  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 443 ]
+"324
+[; ;motor2.c: 324:     TRISDbits.RD3 = 1;
+[e ( _Quiet ..  ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 444  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 444 ]
+"325
+[; ;motor2.c: 325:     TRISCbits.RC3 = 1;
+[e ( _So (1 _n ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 445  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 445 ]
+"326
+[; ;motor2.c: 326:     TRISDbits.RD4 = 1;
+[e ( _Quiet ..  ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 446  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 446 ]
+"327
+[; ;motor2.c: 327:     TRISDbits.RD5 = 1;
+[e ( _So (1 _n ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 447  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 447 ]
+"328
+[; ;motor2.c: 328: 
+[e ( _Quiet ..  ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 448  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 448 ]
+"329
+[; ;motor2.c: 329: 
+[e ( _Do (1 _n ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 449  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 449 ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 450  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 450 ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 451  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 451 ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 452  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 452 ]
+"330
+[; ;motor2.c: 330: 
+[e ( _Quiet ..  ]
+[e ( _delay ..  ]
+[e $ ! == _flag -> 1 `i 453  ]
+{
+[e = _flag -> 0 `i ]
+[e $UE 340  ]
+}
+[e :U 453 ]
+"331
+[; ;motor2.c: 331: 
+[e :UE 340 ]
 }
 [v $root$_main `(v ~T0 @X0 0 e ]
-"219
-[; ;motor2.c: 219:         if(RD0 == 0)
+"333
+[; ;motor2.c: 333:     LATA = 0;
 [v _main `(v ~T0 @X0 1 ef ]
-"220
-[; ;motor2.c: 220:         {
+"334
+[; ;motor2.c: 334: 
 {
 [e :U _main ]
 [f ]
-"222
-[; ;motor2.c: 222: 
+"337
+[; ;motor2.c: 337:     while(1)
 [e ( _PWM1_Start ..  ]
-"223
-[; ;motor2.c: 223:            LATAbits.LATA0 = 1;
+"338
+[; ;motor2.c: 338:     {
 [v _i `i ~T0 @X0 1 a ]
 [e = _i -> 0 `i ]
 [v _j `i ~T0 @X0 1 a ]
 [e = _j -> 0 `i ]
 [v _flag `i ~T0 @X0 1 a ]
 [e = _flag -> 0 `i ]
-"225
-[; ;motor2.c: 225:         }
+"340
+[; ;motor2.c: 340:         int digital = ADC_Read(0);
 [e = . . _TRISDbits 1 0 -> -> 1 `i `uc ]
-"226
-[; ;motor2.c: 226:         else if(RD1 == 0)
+"341
+[; ;motor2.c: 341:         int voltage = digital * ((float)3/1023);
 [e = . . _TRISDbits 1 1 -> -> 1 `i `uc ]
-"227
-[; ;motor2.c: 227:         {
+"342
+[; ;motor2.c: 342:         float speed = voltage*100;
 [e = . . _TRISDbits 1 2 -> -> 1 `i `uc ]
-"228
-[; ;motor2.c: 228:             LATAbits.LATA1 = 1;
+"343
+[; ;motor2.c: 343:         n = (int)voltage;
 [e = . . _TRISDbits 1 3 -> -> 1 `i `uc ]
-"229
-[; ;motor2.c: 229:             Do();
+"344
+[; ;motor2.c: 344: 
 [e = . . _TRISCbits 1 3 -> -> 1 `i `uc ]
-"233
-[; ;motor2.c: 233:             Mi();
+"345
+[; ;motor2.c: 345:         if(RD0 == 0)
+[e = . . _TRISDbits 1 4 -> -> 1 `i `uc ]
+"346
+[; ;motor2.c: 346:         {
+[e = . . _TRISDbits 1 5 -> -> 1 `i `uc ]
+"351
+[; ;motor2.c: 351:         }
 [e = _TRISA -> -> 0 `i `uc ]
-"234
-[; ;motor2.c: 234:         }
+"352
+[; ;motor2.c: 352:         else if(RD1 == 0)
 [e = _LATA -> -> 0 `i `uc ]
-"235
-[; ;motor2.c: 235:         else if(RD3 == 0)
-[e :U 414 ]
-"236
-[; ;motor2.c: 236:         {
+"354
+[; ;motor2.c: 354: 
+[e ( _ADC_Initialize ..  ]
+"356
+[; ;motor2.c: 356:             Do(n);
+[e :U 456 ]
+"357
+[; ;motor2.c: 357:         }
 {
-"238
-[; ;motor2.c: 238:         }
-[e $ ! == -> _RD0 `i -> 0 `i 416  ]
-"239
-[; ;motor2.c: 239:         else if(RD2 == 0)
+"359
+[; ;motor2.c: 359:         else if(RC3 == 0)
+[v _digital `i ~T0 @X0 1 a ]
+[e = _digital ( _ADC_Read (1 -> 0 `i ]
+"360
+[; ;motor2.c: 360:         {
+[v _voltage `i ~T0 @X0 1 a ]
+[e = _voltage -> * -> _digital `f / -> -> 3 `i `f -> -> 1023 `i `f `i ]
+"361
+[; ;motor2.c: 361: 
+[v _speed `f ~T0 @X0 1 a ]
+[e = _speed -> * _voltage -> 100 `i `f ]
+"362
+[; ;motor2.c: 362:             LATAbits.LATA2 = 1;
+[e = _n _voltage ]
+"364
+[; ;motor2.c: 364:         }
+[e $ ! == -> _RD0 `i -> 0 `i 458  ]
+"365
+[; ;motor2.c: 365:         else if(RD3 == 0)
 {
-"240
-[; ;motor2.c: 240:         {
-[e ( _small_bee ..  ]
-"242
-[; ;motor2.c: 242:         }
+"367
+[; ;motor2.c: 367: 
 [e = . . _LATAbits 0 0 -> -> 1 `i `uc ]
-"243
-[; ;motor2.c: 243:         else
-[e ( _Re ..  ]
-"244
-[; ;motor2.c: 244:         {
+"368
+[; ;motor2.c: 368:             LATAbits.LATA3 = 1;
+[e ( _Re (1 _n ]
+"370
+[; ;motor2.c: 370:         }
 }
-[e $U 417  ]
-"245
-[; ;motor2.c: 245:             PWM1_Duty(0);
-[e :U 416 ]
-[e $ ! == -> _RD1 `i -> 0 `i 418  ]
-"246
-[; ;motor2.c: 246:             LATA = 0;
+[e $U 459  ]
+"371
+[; ;motor2.c: 371:         else if(RD2 == 0)
+[e :U 458 ]
+[e $ ! == -> _RD1 `i -> 0 `i 460  ]
+"372
+[; ;motor2.c: 372:         {
 {
-"247
-[; ;motor2.c: 247:         }
+"374
+[; ;motor2.c: 374:              LATAbits.LATA4 = 1;
 [e = . . _LATAbits 0 1 -> -> 1 `i `uc ]
-"248
-[; ;motor2.c: 248:     }
-[e ( _Do ..  ]
-"249
-[; ;motor2.c: 249: }
+"375
+[; ;motor2.c: 375:              So(n);
+[e ( _Do (1 _n ]
+"376
+[; ;motor2.c: 376: 
 }
-[e $U 419  ]
-"250
-[e :U 418 ]
-[e $ ! == -> _RC3 `i -> 0 `i 420  ]
-"251
+[e $U 461  ]
+"378
+[; ;motor2.c: 378:         else if(RD4 == 0)
+[e :U 460 ]
+[e $ ! == -> _RC3 `i -> 0 `i 462  ]
+"379
+[; ;motor2.c: 379:         {
 {
-"252
-[e ( _Mi ..  ]
-"253
+"381
+[; ;motor2.c: 381:              LATAbits.LATA5 = 1;
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+"382
+[; ;motor2.c: 382:              La(n);
+[e ( _Mi (1 _n ]
+"383
+[; ;motor2.c: 383: 
 }
-[e $U 421  ]
-"254
-[e :U 420 ]
-[e $ ! == -> _RD3 `i -> 0 `i 422  ]
-"255
+[e $U 463  ]
+"384
+[; ;motor2.c: 384:         }
+[e :U 462 ]
+[e $ ! == -> _RD3 `i -> 0 `i 464  ]
+"385
+[; ;motor2.c: 385:         else if(RD5 == 0)
 {
-"256
-[e ( _Fa ..  ]
-"257
+"387
+[; ;motor2.c: 387: 
+[e = . . _LATAbits 0 3 -> -> 1 `i `uc ]
+"388
+[; ;motor2.c: 388:              LATAbits.LATA6 = 1;
+[e ( _Fa (1 _n ]
+"389
+[; ;motor2.c: 389:              Si(n);
 }
-[e $U 423  ]
-"258
-[e :U 422 ]
-[e $ ! == -> _RD2 `i -> 0 `i 424  ]
-"259
+[e $U 465  ]
+"390
+[; ;motor2.c: 390: 
+[e :U 464 ]
+[e $ ! == -> _RD2 `i -> 0 `i 466  ]
+"391
+[; ;motor2.c: 391:         }
 {
-"260
-[e ( _So ..  ]
-"261
+"393
+[; ;motor2.c: 393: 
+[e = . . _LATAbits 0 4 -> -> 1 `i `uc ]
+"394
+[; ;motor2.c: 394: 
+[e ( _So (1 _n ]
+"396
+[; ;motor2.c: 396:         else
 }
-[e $U 425  ]
-"262
-[e :U 424 ]
-"263
+[e $U 467  ]
+"397
+[; ;motor2.c: 397:         {
+[e :U 466 ]
+[e $ ! == -> _RD4 `i -> 0 `i 468  ]
+"398
+[; ;motor2.c: 398: 
 {
-"264
+"400
+[; ;motor2.c: 400:             LATA = 0;
+[e = . . _LATAbits 0 5 -> -> 1 `i `uc ]
+"401
+[; ;motor2.c: 401:         }
+[e ( _La (1 _n ]
+"403
+[; ;motor2.c: 403: }
+}
+[e $U 469  ]
+"404
+[e :U 468 ]
+[e $ ! == -> _RD5 `i -> 0 `i 470  ]
+"405
+{
+"407
+[e = . . _LATAbits 0 6 -> -> 1 `i `uc ]
+"408
+[e ( _Si (1 _n ]
+"410
+}
+[e $U 471  ]
+"415
+[e :U 470 ]
+"416
+{
+"418
 [e ( _PWM1_Duty (1 -> 0 `i ]
-"265
+"419
 [e = _LATA -> -> 0 `i `uc ]
-"266
+"420
 }
-[e :U 425 ]
-[e :U 423 ]
-[e :U 421 ]
-[e :U 419 ]
-[e :U 417 ]
-"267
+[e :U 471 ]
+[e :U 469 ]
+[e :U 467 ]
+[e :U 465 ]
+[e :U 463 ]
+[e :U 461 ]
+[e :U 459 ]
+"421
 }
-[e :U 413 ]
-[e $U 414  ]
-[e :U 415 ]
-"268
-[e :UE 412 ]
+[e :U 455 ]
+[e $U 456  ]
+[e :U 457 ]
+"422
+[e :UE 454 ]
 }

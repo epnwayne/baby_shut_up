@@ -199,6 +199,12 @@
         <property key="voltagevalue" value="5.0"/>
       </pk4hybrid>
       <item path="testmotor.c" ex="true" overriding="false">
+        <HI-TECH-COMP>
+        </HI-TECH-COMP>
+        <HI-TECH-LINK>
+        </HI-TECH-LINK>
+        <XC8-config-global>
+        </XC8-config-global>
       </item>
     </conf>
   </confs>
