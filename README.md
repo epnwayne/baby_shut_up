@@ -1,4 +1,4 @@
-"# baby_shut_up" 
+# baby_shut_up 
 * ncku microcontroller class final project
     * using PIC18F4520
 
@@ -6,3 +6,4 @@
 
 * demo vedio URL: https://www.youtube.com/watch?v=sQs0vbKH_X8&t=1s
 
+authors:黃彥瑋
